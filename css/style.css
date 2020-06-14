@@ -165,12 +165,49 @@ section {
     margin: 10px 0;
 }
 .section3 {
-    height: 100vh;
     background-color: steelblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5em;
+    padding: 5em;
 }
-
-
-
+.section3 .box {
+    width: 32%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.845);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.section3 h3 {
+    font-size: 2em;
+    align-self: center;
+    font-weight: 800;
+}
+.section3 ul {
+    padding-left: 0;
+}
+.section3 .box li {
+    list-style: none;
+    margin: 30px 0;
+    
+}
+.section3 button {
+    margin-top: auto;
+    align-self: center;
+    padding: 20px 90px;
+    background-color: #E85D04;
+    color: white;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 10px;
+}
+.section3 button:hover {
+    background-color: #D00000;
+}
 footer {
     height: 480px;
     background-color: #555;
