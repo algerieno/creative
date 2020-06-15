@@ -250,7 +250,7 @@ footer {
     margin: 15px 0;
 }
 .bottomfooter {
-    background-color: #D00000;
+    background-color: #e85252;
     padding: 100px 150px;
     padding-bottom: 50px;
     margin: 0 -150px;
@@ -327,11 +327,11 @@ footer {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 1.2em;
-    background-color: #ee3030;
+    background-color: #e85252;
     color: white;
     font-weight: lighter;
     border: 0;
 }
 .contactform button:hover {
-    background-color: tomato;
+    background-color: #D00000;
 }
